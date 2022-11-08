@@ -1,0 +1,6 @@
+spec:
+  env: prod
+  project: network
+  region: us-east-1
+  cidr: 10.20.0.2/24
+  aws_account_id : 1234567894

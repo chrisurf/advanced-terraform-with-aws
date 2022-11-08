@@ -1,0 +1,6 @@
+spec:
+  env: test
+  project: network
+  region: us-east-1
+  cidr: 10.20.0.1/24
+  aws_account_id : 1234567896

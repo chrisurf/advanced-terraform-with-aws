@@ -1,0 +1,6 @@
+spec:
+  env: dev
+  project: network
+  region: eu-central-1
+  cidr: 10.10.0.0/24
+  aws_account_id : 1234567891
