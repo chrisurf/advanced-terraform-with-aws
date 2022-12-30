@@ -1,0 +1,11 @@
+spec:
+  env: dev
+  project: network
+  region: eu-central-1
+  cidr: 10.10.0.1/24
+  aws_account_id : 1234567895
+  modules:
+    - name: aws-vpc
+      enabled: true
+    - name: aws-subnet
+      enabled: true
