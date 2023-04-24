@@ -1,6 +1,6 @@
 module "aws_subnet" {
   source = "../../modules/aws_subnets"
-
+  enabled = local.modules.aws-subnet.enabled
   subnets = [
     {
       name       = "${local.env}-${local.project}"
